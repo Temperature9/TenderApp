@@ -1,0 +1,138 @@
+/* RegistrationPage.css */
+.registration-page-container {
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Your other styles go here */
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the form controls */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style the input fields */
+.form-control {
+
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+/* Style the eye button */
+.input-group {
+  position: relative;
+}
+
+.btn-outline-secondary {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px; /* Adjusted padding */
+}
+
+/* Style the Register button */
+
+
+
+/* RegistrationPage.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container1 {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+ 
+  background-color: rgb(185, 125, 244);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  background-color: #f4f4f4;
+  /* Add additional styling as needed */
+}
+/* RegistrationPage.css */
+.container {
+  margin-top: 50px;
+}
+
+.card-container {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.registration-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add spacing between form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style the input fields */
+.input-group {
+  position: relative;
+}
+
+/* Style the show/hide password button */
+.show-password-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.btn-primary{
+background-color: rgb(179, 0, 255);
+color: black;
+border: none;
+}
+.btn-primary:hover {
+  background-color: #b20085;
+}

@@ -1,0 +1,92 @@
+/* src/styles.css */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+
+.login-options {
+    display: flex;
+    flex-direction: column; /* Display buttons in a column */
+    align-items: center;    /* Center buttons horizontally */
+    margin: 20px 0;         /* Add some vertical margin for spacing */
+  }
+  
+  /* Add any additional styling as needed */
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('../public/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Barlow Condensed';
+    src: url('../public/fonts/BarlowCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Your other styles go here */
+  
+  .login-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .login-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* src/styles.css */
+/* src/styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color:transparent !important;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .menu a {
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .menu a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+  }
+  
